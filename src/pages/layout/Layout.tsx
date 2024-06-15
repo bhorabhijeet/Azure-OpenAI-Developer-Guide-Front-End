@@ -10,13 +10,13 @@ const Layout = () => {
             <header className={styles.header} role={"banner"}>
                 <div className={styles.headerContainer}>
                     <Link to="/" className={styles.headerTitleContainer}>
-                        <h3 className={styles.headerTitle}>Cosmos DB MongoDB vCore + Azure OpenAI</h3>
+                        <h3 className={styles.headerTitle}>Concierge : AI-Powered Shop Assistance</h3>
                     </Link>
                     <nav>
                         <ul className={styles.headerNavList}>
                             
                             <li className={styles.headerNavLeftMargin}>
-                                <a href="https://github.com/cosmosdb" target={"_blank"} title="Github repository link">
+                                <a href="https://devpost.com/software/ai-powered-bike-shop-bot" target={"_blank"} title="Github repository link">
                                     <img
                                         src={github}
                                         alt="Github logo"
@@ -29,7 +29,7 @@ const Layout = () => {
                             </li>
                         </ul>
                     </nav>
-                    <h4 className={styles.headerRightText}>CosmicWorks</h4>
+                    <h4 className={styles.headerRightText}>Cosmic Works</h4>
                 </div>
             </header>
 
